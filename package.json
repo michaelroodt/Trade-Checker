@@ -1,0 +1,20 @@
+{
+  "name": "kucoin-futures-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server for KuCoin Futures trading via Vercel Edge Functions",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@vercel/node": "^4.0.0",
+    "typescript": "^5.6.0",
+    "vercel": "^39.0.0"
+  }
+}
