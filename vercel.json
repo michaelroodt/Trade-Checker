@@ -1,14 +1,13 @@
 {
-  "version": 2,
-  "regions": ["fra1", "dub1"],
-  "functions": {
-    "api/mcp.ts": {
-      "runtime": "edge",
-      "maxDuration": 30
-    }
-  },
-  "routes": [
-    { "src": "/mcp", "dest": "/api/mcp" },
-    { "src": "/health", "dest": "/api/health" }
-  ]
+    "version": 2,
+    "functions": {
+          "api/mcp.ts": {
+                  "runtime": "edge",
+                  "maxDuration": 30
+          }
+    },
+    "routes": [
+          { "src": "/mcp", "dest": "/api/mcp" },
+          { "src": "/health", "dest": "/api/health" }
+    ]
 }
